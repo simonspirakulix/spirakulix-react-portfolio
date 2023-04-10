@@ -106,6 +106,17 @@
     }
 }
 
+.figma_portfolio_frame {
+    h1 a {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: var(--selected-theme-main-color);
+        text-transform: uppercase;
+        padding: 5px;
+        text-decoration: none;
+    }
+    padding: 20px;
+}
+
 @keyframes typingEffect{
     from {
         width: 0;
