@@ -7,7 +7,7 @@ import ImageFive from "../../images/image5.jpg";
 export const portfolioData = [
   {
     sectionId: 3,
-    projectName: "ToDo Application",
+    projectName: "Burger Restaurant Design",
     projectLink: "https://dribbble.com/shots/21111117-Burger-Restaurant-Design", //project link here based on you choice
     image: ImageOne,
   },
@@ -19,8 +19,8 @@ export const portfolioData = [
   },
   {
     sectionId: 2,
-    projectName: "Calculator app",
-    projectLink: "", //project link here based on you choice
+    projectName: "Spacetelescope.org",
+    projectLink: "http://spacetelescope.org", //project link here based on you choice
     image: ImageThree,
   },
   {
