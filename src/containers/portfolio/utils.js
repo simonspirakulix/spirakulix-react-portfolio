@@ -1,8 +1,9 @@
 import ImageOne from "../../images/burger.jpg";
 import ImageTwo from "../../images/base9.jpg";
 import ImageThree from "../../images/image3.jpg";
-import ImageFour from "../../images/image4.jpg";
-import ImageFive from "../../images/image5.jpg";
+import ImageFour from "../../images/zweieinheit.png";
+import ImageFive from "../../images/stadtstrandfluss.jpg";
+import ImageSix from "../../images/mc-cube-app.jpg";
 
 export const portfolioData = [
   {
@@ -24,16 +25,22 @@ export const portfolioData = [
     image: ImageThree,
   },
   {
-    sectionId: 3,
-    projectName: "Supplier design app",
-    projectLink: "", //project link here based on you choice
+    sectionId: 2,
+    projectName: "Zweieinheit Webpage",
+    projectLink: "#", //project link here based on you choice
     image: ImageFour,
   },
   {
-    sectionId: 3,
-    projectName: "Design App",
-    projectLink: "", //project link here based on you choice
+    sectionId: 2,
+    projectName: "Stadt Strand Fluss",
+    projectLink: "https://berlin-beats-boats.de/", //project link here based on you choice
     image: ImageFive,
+  },
+  {
+    sectionId: 3,
+    projectName: "Mc Cube App",
+    projectLink: "https://www.mc-cube.at/", //project link here based on you choice
+    image: ImageSix,
   }
 ];
 
