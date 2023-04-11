@@ -12,6 +12,27 @@ import Contact from "./containers/contact";
 import Navbar from "./components/navBar";
 import particlesConfig from "./helpers/particlesConfig";
 import Theme from "./components/theme";
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBE_tMCQxV9bM00GRtR6fYVDycX6PhmtWw",
+  authDomain: "uxlean-d6144.firebaseapp.com",
+  projectId: "uxlean-d6144",
+  storageBucket: "uxlean-d6144.appspot.com",
+  messagingSenderId: "1085310194341",
+  appId: "1:1085310194341:web:570504a8a5830cb39eb34c",
+  measurementId: "G-311Y7TK38P"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 function App() {
   const particlesInit = async (main) => {

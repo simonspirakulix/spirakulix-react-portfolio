@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeaderContent from "../../components/pageHeaderContent";
-import { Ri24HoursLine, RiAccountBoxLine, RiCodeView, RiCommunityLine, RiContactsFill, RiContactsLine } from "react-icons/ri";
+import { Ri24HoursLine } from "react-icons/ri";
 import "./styles.scss";
 import { MdSend } from "react-icons/md";
 
@@ -9,7 +9,7 @@ const Contact = () => {
     <section id="contact" className="contact">
       <PageHeaderContent
         headerText="Hire Me"
-        icon={<RiAccountBoxLine size={40} />}
+        icon={<Ri24HoursLine size={40} />}
       />
       <div className="contact__content">
         <h3 className="contact__content__header-text">Let's Talk</h3>

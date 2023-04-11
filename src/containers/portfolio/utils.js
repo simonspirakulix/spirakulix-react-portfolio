@@ -13,7 +13,7 @@ export const portfolioData = [
     image: ImageOne,
   },
   {
-    sectionId: 2,
+    sectionId: 5,
     projectName: "Base9 Coworking Space Salzburg",
     projectLink: "", //project link here based on you choice
     image: ImageTwo,
@@ -37,7 +37,7 @@ export const portfolioData = [
     image: ImageFive,
   },
   {
-    sectionId: 3,
+    sectionId: 4,
     projectName: "Mc Cube App",
     projectLink: "https://www.mc-cube.at/", //project link here based on you choice
     image: ImageSix,
@@ -50,11 +50,19 @@ export const filterOptions = [
     id: 1,
   },
   {
-    label: "Developement",
+    label: "Web Development",
     id: 2,
   },
   {
-    label: "Design",
+    label: "Graphic Design",
     id: 3,
+  },
+  {
+    label: "App Design",
+    id: 4,
+  },
+  {
+    label: "Location Design",
+    id: 5,
   },
 ];
