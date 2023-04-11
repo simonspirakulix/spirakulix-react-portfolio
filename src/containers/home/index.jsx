@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section className="home" id="home">
       <div className="home__logoHome">
-        <img src="logo.svg" with="200"/>
+        <img alt="UXlean.com header Logo small" src="logo.svg" with="200"/>
       </div>
       <div className="home__text-wrapper">
         <h1>

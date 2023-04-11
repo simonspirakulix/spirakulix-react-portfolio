@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBlackTie } from "react-icons/fa";
-import { MdCastForEducation, MdDraw, MdLeaderboard, MdWork } from "react-icons/md";
+import { MdDraw, MdWork } from "react-icons/md";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import {
   VerticalTimeline,
